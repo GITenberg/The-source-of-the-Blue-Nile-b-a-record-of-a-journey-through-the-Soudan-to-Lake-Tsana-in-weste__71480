@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+>
+  <pgterms:ebook rdf:about="ebooks/71480">
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08-24</dcterms:issued>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</pgterms:downloads>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/56257">
+        <pgterms:name>Hayes, Arthur J.</pgterms:name>
+      </pgterms:agent>
+    </dcterms:creator>
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/56258">
+        <pgterms:name>Poulton, Edward B.</pgterms:name>
+      </pgterms:agent>
+    </marcrel:ctb>
+    <dcterms:title>The source of the Blue Nile : $b a record of a journey through the Soudan to Lake Tsana in western Abyssinia, and of the return to Egypt by the valley of the Atbara : with a note on the religion, customs, etc. of Abyssinia</dcterms:title>
+    <pgterms:marc260>  $aLondon :$bSmith, Elder &amp; Co., $c1905.</pgterms:marc260>
+    <pgterms:marc508>Galo Flordelis (This file was produced from images generously made available by The Internet Archive)</pgterms:marc508>
+    <pgterms:marc904>https://archive.org/details/b29012387</pgterms:marc904>
+    <pgterms:marc905>20230808234310hayes</pgterms:marc905>
+    <pgterms:marc906>1905</pgterms:marc906>
+    <pgterms:marc907>GB</pgterms:marc907>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Nacd0990a07b34ec0be9a5f0527f7b233">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/71480/71480-h/71480-h.htm">
+        <dcterms:isFormatOf rdf:resource="ebooks/71480"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">701362</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-24T13:56:43</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd51be966e57746bdbb410f22aa3588d1">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/71480/71480-0.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/71480"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">601038</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-24T13:56:43</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N887a441fe14c4fd894db1afd0c5b3db6">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/71480/71480-h.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/71480"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5909455</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-24T13:56:43</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na1e5eab292dd4d7da329bf1e46a75d14">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value>application/octet-stream</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na2b6adefc8c843a58fbbcaed56dde63a">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
+</rdf:RDF>
