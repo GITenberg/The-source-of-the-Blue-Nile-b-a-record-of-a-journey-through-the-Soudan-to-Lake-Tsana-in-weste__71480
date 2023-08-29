@@ -5,12 +5,17 @@ contributor:
     agent_name: Poulton, Edward B.
     gutenberg_agent_id: '56258'
     url: http://www.gutenberg.org/2009/agents/56258
+covers:
+- cover_type: archival
+  image_path: 71480-h/images/cover.jpg
 creator:
   author:
     agent_name: Hayes, Arthur J.
     gutenberg_agent_id: '56257'
     url: http://www.gutenberg.org/2009/agents/56257
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/71480#The-source-of-the-Blue-Nile-b-a-record-of-a-journey-through-the-Soudan-to-Lake-Tsana-in-weste_
 gutenberg_issued: '2023-08-24'
 identifiers:
   gutenberg: '71480'
